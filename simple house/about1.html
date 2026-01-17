@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+        background-color: grey;
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+
+
+    .main {
+        height: 100%;
+        width: 95%;
+        background-color: aliceblue;
+        box-shadow: 0 0 2px grey;
+        margin: 0px auto;
+
+
+
+    }
+
+    .main1 {
+        height: 500px;
+        width: 100%;
+        background-image: url(img/simple-house-01.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    .box1 {
+        height: 100px;
+        width: 100%;
+        /* border: 2px solid red; */
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box1a {
+        width: 70%;
+        height: 100%;
+        /* border: 1px solid red; */
+
+
+    }
+
+    /* .svg-logo {} */
+
+    .text-head {
+        color: aliceblue;
+        font-size: 25px;
+        display: flex;
+        display: inline-block;
+
+    }
+
+    .nav-ul li {
+        color: white;
+        text-decoration: underline;
+        display: flex;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .main2 {
+        width: 100%;
+        height: 250px;
+        /* border: 1px solid red; */
+        display: flex;
+
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .para {
+        height: 200px;
+        width: 50%;
+
+        font-family: sans-serif;
+
+        line-height: 1.6em;
+        /* border: 1px solid black; */
+        color: rgb(31, 28, 28);
+
+    }
+
+    .main3 {
+        width: 100%;
+
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-evenly; */
+
+
+    }
+
+    .main3a {
+        width: 90%;
+
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .card {
+        width: 49%;
+        height: 300px;
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .card-left {
+        width: 30%;
+        height: 250px;
+        box-shadow: 0px 0px 3px;
+        /* border: 1px solid black; */
+
+
+
+    }
+
+    .card-image {
+        height: 100%;
+        width: 100%;
+
+
+
+    }
+
+    .card-right {
+        width: 65%;
+        height: 250px;
+        box-shadow: 0px 0px 3px;
+        /* border: 2px solid black; */
+
+
+
+
+        /* margin-right: 20px; */
+    }
+
+
+
+    .card-name {
+
+        /* border: 1px solid red; */
+        color: blue;
+
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+
+    .card-position {
+        font-size: 18px;
+        color: #C39;
+        line-height: 1.8;
+
+        margin-bottom: 20px;
+    }
+
+    .card-about {
+        color: #626364;
+        line-height: 1.8;
+        margin-bottom: 15px;
+    }
+
+    .card-link {
+        height: 40px;
+        width: 40px;
+        /* border: 1px solid red; */
+        margin-left: 5px;
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .card-link:hover {
+        background-color: grey;
+        cursor: pointer;
+    }
+
+    .main4 {
+        width: 90%;
+        height: 180px;
+        /* border: 2px solid black; */
+
+        margin: auto;
+
+        background-image: url(img/about-05.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        position: relative;
+
+    }
+
+    .main5 {
+        height: 500px;
+        width: 90%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .dummy {
+        height: 320px;
+        width: 28%;
+
+        margin-top: 20px;
+        margin: auto;
+        padding: 45px 20px;
+
+        /* background-color: red; */
+        text-align: center;
+    }
+
+    .dummy-img {
+        height: 60px;
+        width: 60px;
+
+    }
+
+    .dummy-description {
+
+        font-weight: 300;
+        margin: 40px 0;
+        line-height: 1.8;
+    }
+
+    .dummy-btn {
+        /* width:80px; */
+        padding: 10px 30px;
+        border: 1px solid black;
+        display: inline-block;
+
+    }
+
+    .dummy-btn:hover {
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+
+    .main6 {
+        height: 400px;
+        width: 90%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .main6a {
+        width: 49%;
+        height: 300px;
+        border: 1px solid black;
+        margin: auto;
+    }
+
+    .img-06 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .main6b {
+        width: 49%;
+        height: 300px;
+        /* border: 1px solid black; */
+        margin: auto;
+
+    }
+
+    .last-para-head {
+        font-size: 23px;
+        color: #1A6692;
+        font-weight: 400;
+        margin-bottom: 20px;
+
+
+    }
+
+    .last-para-description-a {
+        height: 100px;
+        width: 100%;
+        color: #626364;
+        /* border: 1px solid black; */
+
+        font-size: 18px;
+        line-height: 1.8em;
+        margin-bottom: 10px;
+
+    }
+
+    .last-para-description-b {
+        height: 140px;
+        width: 100%;
+        color: #626364;
+        /* border: 1px solid black; */
+
+        font-size: 18px;
+        line-height: 1.8em;
+        margin-bottom: 10px;
+
+    }
+
+    .about-footer {
+        color: #626364;
+        /* border:1px solid red; */
+
+        font-size: 18px;
+        margin: 70px;
+        margin-left: 350px;
+        position: relative;
+
+
+
+
+
+    }
+      a:visited{
+            background-color: blue;
+        }
+</style>
+
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="box1">
+                <div class="box1a"><img src="img/simple-house-logo.png" class="svg-logo">
+                    <div class="text-head"><big>Simple House</big><br>
+                        <small>new restaurant template</small>
+                    </div>
+
+                </div>
+                <div class="box1b">
+                    <ul type="none" class="nav-ul">
+                        <li><a href=index1.html>home</a></li>
+                        <li><a href=about1.html>about</a></li>
+                        <li><a href=contact1.html>contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="main2">
+            <div class="para">
+                <h1>About Simple House</h1>
+                This is about page of simple house template. You can modify and use this HTML template for your website.
+                Total 3 HTML pages included in this template. Header image has a parallax effect.
+
+            </div>
+
+        </div>
+        <div class="main3">
+            <div class="main3a">
+                <div class="card">
+                    <div class="card-left">
+                        <img src="img/about-01.jpg" class="card-image" />
+                    </div>
+                    <div class="card-right">
+                        <div class="card-name">Jennifer Soft</div>
+                        <div class="card-position">Founder and CEO</div>
+                        <div class="card-about">Vivamus cursus leo nec sem feugiat sagittis. Duis ut feugiat odio, sit
+                            amet
+                            accumsan odio.</div>
+                        <div class="card-link"><i class="fa fa-facebook-f" style="font-size:30px"></i></div>
+                        <div class="card-link"><i class="fa fa-twitter" style="font-size:30px"></i></div>
+                        <div class="card-link"><i class="fa fa-instagram" style="font-size:30px"></i></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-left">
+                        <img src="img/about-02.jpg" class="card-image" />
+                    </div>
+                    <div class="card-right">
+                        <div class="card-name">Daisy Walker</div>
+                        <div class="card-position">Exclutive Chef</div>
+                        <div class="card-about">Praesent non vulputate elit. Orci varius natoque et magnis dis
+                            parturient,
+                            nascetur ridiculus mus.</div>
+                        <div class="card-link"><i class="fa fa-facebook-f" style="font-size:30px"></i></div>
+                        <div class="card-link"><i class="fa fa-twitter" style="font-size:30px"></i></div>
+                        <div class="card-link"><i class="fa fa-instagram" style="font-size:30px"></i></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left">
+                        <img src="img/about-03.jpg" class="card-image" />
+                    </div>
+                    <div class="card-right">
+                        <div class="card-name">Florence Nelsone</div>
+                        <div class="card-position">Kitchen Manager</div>
+                        <div class="card-about">Aenean sapien sem, ultricies sed vulputate et, auctor vel mauris.
+                            Integer sit
+                            amet diam eget est facilisis lacinia vitae.</div>
+                        <div class="card-link"><i class="fa fa-facebook-f" style="font-size:30px"></i></div>
+                        <div class="card-link"><i class="fa fa-twitter" style="font-size:30px"></i></div>
+                        <div class="card-link"><i class="fa fa-instagram" style="font-size:30px"></i></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left">
+                        <img src="img/about-04.jpg" class="card-image" />
+                    </div>
+                    <div class="card-right">
+                        <div class="card-name">Velentia Martin</div>
+                        <div class="card-position">Culinary Director</div>
+                        <div class="card-about">Aenean sapien sem, ultricies sed vulputate et, auctor vel mauris.
+                            Integer sit
+                            amet diam eget est facilisis lacinia vitae.
+
+                        </div>
+
+                        <div class="card-link"><i class="fa fa-facebook-f" style="font-size:30px"></i></div>
+                        <div class="card-link"><i class="fa fa-twitter" style="font-size:30px"></i></div>
+                        <div class="card-link"><i class="fa fa-instagram" style="font-size:30px"></i></div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        <div class="main4"></div>
+        <div class="main5">
+            <div class="dummy">
+
+                <img src="img/dummy-img.png" class="dummy-img" />
+                <!-- </div> -->
+                <div class="dummy-description">
+
+                    Donec sed orci fermentum, convallis lacus id, tempus elit. Sed eu neque accumsan, porttitor arcu a,
+                    interdum est. Donec in risus eu ante.</div>
+                <div class="dummy-btn" style="background-color: blue;"> READ MORE</div>
+            </div>
+            <div class="dummy">
+
+                <img src="img/dummy-img.png" class="dummy-img" />
+                <!-- </div> -->
+                <div class="dummy-description">
+
+                    Donec sed orci fermentum, convallis lacus id, tempus elit. Sed eu neque accumsan, porttitor arcu a,
+                    interdum est. Donec in risus eu ante.</div>
+                <div class="dummy-btn" style="background-color:green;"> READ MORE</div>
+            </div>
+            <div class="dummy">
+
+                <img src="img/dummy-img.png" class="dummy-img" />
+                <!-- </div> -->
+                <div class="dummy-description">
+
+                    Donec sed orci fermentum, convallis lacus id, tempus elit. Sed eu neque accumsan, porttitor arcu a,
+                    interdum est. Donec in risus eu ante.</div>
+                <div class="dummy-btn" style="background-color: red;"> READ MORE</div>
+            </div>
+
+
+        </div>
+        <div class="main6">
+            <div class="main6a"><img src="img/about-06.jpg" class="img-06"></div>
+            <div class="main6b">
+                <div class="last-para">
+                    <div class="last-para-head"> History of our restaurant</div>
+                    <div class="last-para-description-a">Sed ligula risus, interdum aliquet imperdiet sit amet, auctor
+                        sit amet justo. Maecenas posuere lorem id augue interdum
+                        vehicula. Praesent sed leo eget libero ultricies congue.</div>
+                    <div class="last-para-description-b">Redistributing this template as a downloadable ZIP file on any
+                        template collection site is strictly prohibited. You will
+                        need to contact TemplateMo for additional permissions about our templates. Thank you</div>
+
+                </div>
+
+            </div>
+            <div class="about-footer">Copyright © 2020 Simple House | Design: TemplateMo</div>
+        </div>
+
+
+
+
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>
